@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AXRnauvginiRrab4YQKbnUzLej7kI2W45hNZksGnKwA08vBWOAMqH/uQAgD6q3nVGMxTWk+rxeB/G2Z7AfLcQg==",
+  "success": true,
+  "projectFilePath": "D:\\temp\\nuget_issue_11253\\build.proj",
+  "expectedPackageFiles": [
+    "D:\\nuget\\packages\\nuget.issue11253.packagec\\1.0.0\\nuget.issue11253.packagec.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

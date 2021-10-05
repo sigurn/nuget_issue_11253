@@ -1,0 +1,12 @@
+Build started 05.10.2021 13:50:39.
+     1>Project "D:\temp\nuget_issue_11253\build.proj" on node 1 (Test target(s)).
+     1>Test:
+         D:\nuget\packages\nuget.issue11253.packageb\1.0.0\build\PackageB.wxi
+         D:\nuget\packages\nuget.issue11253.packagea\1.0.0\build\PackageA.wxi
+     1>Done Building Project "D:\temp\nuget_issue_11253\build.proj" (Test target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.28

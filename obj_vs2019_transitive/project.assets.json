@@ -1,0 +1,85 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "NuGet.Issue11253.PackageC/1.0.0": {
+        "type": "package",
+        "build": {
+          "build/NuGet.Issue11253.PackageC.props": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NuGet.Issue11253.PackageC/1.0.0": {
+      "sha512": "adlmdctNEmQYHabPWMB43p8j4/6MMxGu8Gaqj8yFHl5qoLhvdNK43zEZoc0xxMmdvQ01cp0E+s2njkk5/Ocd/Q==",
+      "type": "package",
+      "path": "nuget.issue11253.packagec/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "build/NuGet.Issue11253.PackageC.props",
+        "build/PackageC.wxi",
+        "nuget.issue11253.packagec.1.0.0.nupkg.sha512",
+        "nuget.issue11253.packagec.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "NuGet.Issue11253.PackageC >= 1.0.*"
+    ]
+  },
+  "packageFolders": {
+    "D:\\nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\temp\\nuget_issue_11253\\build.proj",
+      "projectName": "build",
+      "projectPath": "D:\\temp\\nuget_issue_11253\\build.proj",
+      "packagesPath": "D:\\nuget\\packages\\",
+      "outputPath": "D:\\temp\\nuget_issue_11253\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "D:\\temp\\nuget_issue_11253\\NuGet.Config",
+        "C:\\Users\\foo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472-test"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\temp\\nuget_issue_11253\\packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472-test",
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472-test",
+        "dependencies": {
+          "NuGet.Issue11253.PackageC": {
+            "suppressParent": "None",
+            "target": "Package",
+            "version": "[1.0.*, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

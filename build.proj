@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.Build.NoTargets">
+
+  <PropertyGroup>
+    <TargetFramework>net472-test</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TestBuildTransitive)' == ''">
+    <PackageReference Include="NuGet.Issue11253.PackageA" Version="1.0.*" PrivateAssets="none" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TestBuildTransitive)' != ''">
+    <PackageReference Include="NuGet.Issue11253.PackageC" Version="1.0.*" PrivateAssets="none" />
+  </ItemGroup>
+
+  <Target Name="Test">
+    <Message Text="%(WixFile.Identity)" />
+  </Target>
+
+</Project>
